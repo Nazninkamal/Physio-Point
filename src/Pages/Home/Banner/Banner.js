@@ -15,8 +15,8 @@ const Banner = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    <h3>Professional therapist</h3>
+      <p>We are highest levels of honesty and professionalism at all times.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -27,8 +27,8 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>Personal Treatments</h3>
+      <p>We care about you and the success of your providing personalised care.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -39,8 +39,8 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+     <h3>Excellence Research</h3>
+      <p>We have the right caring, experience and dedicated professional for you.</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

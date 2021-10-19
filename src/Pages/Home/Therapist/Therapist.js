@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Therapist.css'
 
 
@@ -10,6 +11,8 @@ const Therapist = ({therapist}) => {
             <img className="imgg" src={img} alt="" />
             <h5>{name}</h5>
             <h6>{position}</h6>
+            <Link to={`/about/$`}> <button className="btn btn-warning">About</button></Link>
+        
 
             
         </div>
