@@ -11,7 +11,7 @@ const Therapist = ({therapist}) => {
             <img className="imgg" src={img} alt="" />
             <h5>{name}</h5>
             <h6>{position}</h6>
-            <Link to={`/about/$`}> <button className="btn btn-warning">About</button></Link>
+            <Link to={`/about/$`}> <button className="btn btn-warning">About Us</button></Link>
         
 
             

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import { HashLink } from 'react-router-hash-link';
 
@@ -9,9 +9,10 @@ const Header = () => {
     return (
        
 <>
-  <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
+  <Navbar className="navbar navbar-light" style={{backgroundColor:" #e3f2fd"}}sticky="top" collapseOnSelect expand="lg">
     <Container>
-    <Navbar.Brand href="#home">Physio Point</Navbar.Brand>
+    <Navbar.Brand href="#home"><img style={{width:"50px", borderRadius:"50px"}} src="https://thumbs.dreamstime.com/b/physical-therapy-logo-design-icon-vector-illustration-physical-therapy-logo-design-icon-vector-illustration-health-body-medical-162733976.jpg" alt="" /> 
+    Physio Point</Navbar.Brand>
     <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end">
     <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>

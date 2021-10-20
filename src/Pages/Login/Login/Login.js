@@ -19,23 +19,33 @@ const Login = () => {
     }
 
     return (
-        <div className="login-form">
-            <div>
-                <h2>Login</h2>
+        <div className="login-form row">
+            <div className="col-md-6 mt-5">
+                <h2  className="mt-5">Login</h2>
                 <form>
-                    <input type="email" name="" id="" placeholder="Your Email" />
+                    <input className="mb-2" type="email" name="" id="" placeholder="Your Email" />
                     <br />
-                    <input type="password" name="" id="" />
+                    <input className="mb-2" type="password" name="" id="" placeholder="Your password"/>
                     <br />
-                    <input type="submit" value="Submit" />
+                    <input className="mb-2 btn btn-success" type="submit" value="Submit" />
                 </form>
-                <p>new to ema-john website? <Link to="/register">Create Account</Link></p>
+                <p>new to ema-john website? <Link to="/register"><button  className="btn btn-warning">Create Account</button></Link></p>
                 <div>-------or----------</div>
                 <button
                     className="btn btn-warning mb-5"
                     onClick={signInUsingGoogle}
                 >Google Sign In</button>
             </div>
+            <div className="col-md-6">
+                    <div className="right-side-image">
+                        <img
+                            className="w-100"
+                            src="https://i.ibb.co/MSBbLcd/access-control-system-abstract-concept-illustration-security-system-authorize-entry-login-credential.jpg"
+                            alt=""
+                        />
+                    </div>
+                    ;
+                </div>
         </div>
     );
 };

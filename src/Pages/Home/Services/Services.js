@@ -7,14 +7,14 @@ import './Services.css'
 const Services = () => {
     const [services, setServices] = useState([])
     useEffect(() =>{
-        fetch('services.JSON')
+        fetch('./services.json')
         .then(res => res.json())
         .then(data => setServices(data));
     } ,[])
     return (
       <div id="services">
           <h2 className="mt-5 text-primary">PHYSIOTHERAPY SERVICES</h2>
-          <p className="mx-5">We are one of the leading providers of domiciliary care and health care staffing services. Is your loved one living with a chronic condition, recovering from illness, or simply in need of daily assistance.</p>
+          <p  className="text-center mx-5 ">We are one of the leading providers of domiciliary care and health care staffing services. Is your loved one living with a chronic condition, recovering from illness, or simply in need of daily assistance.</p>
           <div className="service-container">
             {
                 services.map(service =><Service

@@ -7,7 +7,7 @@ const {id, name, img, describe} = service;
         <div className="service pb-3">
          <img src={img} alt=""/>
          <h3>{name}</h3>
-         <p className="px-3">{describe}</p>
+         <p  className="text-xl-start px-3">{describe}</p>
         <Link to={`/booking/${id}`}> <button className="btn btn-warning">Book {name.toLowerCase()}</button></Link>
         
         </div>

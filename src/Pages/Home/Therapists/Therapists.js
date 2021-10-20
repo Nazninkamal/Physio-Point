@@ -49,13 +49,13 @@ const Therapists = () => {
        <div id="therapists" className="row mx-5 my-5">
            <hr />
             <div className="col-lg-5 ">
-             <h2>Physiotherapy services from professionals therapists</h2>
+             <h2 className="text-xl-start">Physiotherapy services from professionals therapists</h2>
         </div>
         
         <div className="col-lg-7">
-            <h6>We are one of the leading providers of domiciliary care and health
-                <br /> care staffing services. Is your loved one living with a chronic condition,
-                <br /> recovering from illness, or simply in need of daily assistance.</h6>
+            <h6  className="text-xl-start">We are one of the leading providers of domiciliary care and health
+               care staffing services. Is your loved one living with a chronic condition,
+                 recovering from illness, or simply in need of daily assistance.</h6>
         </div>
 
         <div className="row my-5">
